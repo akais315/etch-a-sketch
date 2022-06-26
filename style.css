@@ -3,8 +3,6 @@
 }
 
 .gridCell {
-    width: 30px;
-    height: 30px;
     margin: 2px;
     background-color: lightcoral;
 }
@@ -15,6 +13,9 @@
 
 #grid{
     width: 960px;
+    max-height: 960px;
+    display: flex;
+    flex-direction: column;
 }
 
 body{
