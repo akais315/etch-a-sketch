@@ -13,6 +13,8 @@ function createGrid(rows){
             newDiv.appendChild(newCol);
             newCol.className = "gridCell";
             newCol.id = "c"+j;
+            newCol.style.width = 960/rows+"px";
+            newCol.style.height = 960/rows+"px";
         }
     }
     addListener();
