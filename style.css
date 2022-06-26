@@ -3,7 +3,7 @@
 }
 
 .gridCell {
-    width : 30px;
+    width: 30px;
     height: 30px;
     margin: 2px;
     background-color: lightcoral;
@@ -11,4 +11,12 @@
 
 .hovered{
     background-color: lightgreen;
+}
+
+#grid{
+    width: 960px;
+}
+
+body{
+    background-color: blanchedalmond;
 }
